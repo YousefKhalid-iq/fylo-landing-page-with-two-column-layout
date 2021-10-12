@@ -1,0 +1,56 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  display: flex;
+  width: 100%;
+}
+
+.logo-img-cont {
+  width: 40%;
+}
+
+.logo-img {
+  width: 80px;
+  margin: 20px 0px 0 20px;
+}
+
+.header-links {
+  text-align: right;
+  width: 60%;
+  margin-top: 20px;
+}
+
+.header-links li {
+  display: inline;
+  list-style: none;
+}
+
+.header-links a {
+  text-decoration: none;
+  color: hsl(243, 87%, 12%);
+  font-family: 'Raleway', sans-serif;
+  margin-right: 5%;
+}
+
+.header-section {
+  padding-top: 20%;
+}
+
+.illustration-img-header {
+  width: 80%;
+  display: block;
+  margin: 0 auto;
+}
+
+
+.attribution { 
+  font-size: 11px; text-align: center; 
+}
+
+.attribution a { 
+  color: hsl(228, 45%, 44%); 
+}
