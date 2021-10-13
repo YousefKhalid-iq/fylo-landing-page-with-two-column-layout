@@ -64,6 +64,7 @@ h1 {
   text-align: center;
   margin: 0 auto;
   font-size: 1.1rem;
+  line-height: 1.7rem;
 }
 
 form {
@@ -72,7 +73,7 @@ form {
   padding: 7% 0 14% 0;
 }
 
-form .email-input {
+form .email-input, .form-footer .email-input-footer {
   width: 85%;
   padding: 4%;
   border-radius: 0.4rem;
@@ -81,12 +82,12 @@ form .email-input {
   border-color: hsl(243, 87%, 12%);
 }
 
-.email-input[type="email"]::placeholder { 
+.email-input[type="email"]::placeholder, .email-input-footer[type="email"]::placeholder { 
   opacity: 0.6;
   font-family: 'Raleway', sans-serif;
 }
 
-.form-btn-cont button {
+.form-btn-cont button, .form-btn-cont-footer button {
   width: 85%;
   background-color: hsl(224, 93%, 58%);
   border: 0;
@@ -97,7 +98,7 @@ form .email-input {
   cursor: pointer;
 }
 
-.email-input:focus {
+.email-input:focus, .email-input-footer:focus {
   outline-width: 0;
 }
 
@@ -108,6 +109,7 @@ form .email-input {
 
 .productive-section {
   background-color: hsl(240, 75%, 98%);
+  padding-bottom: 22%;
 }
 
 h2 {
@@ -128,12 +130,13 @@ h2 {
   margin: 0 auto;
   text-align: left;
   padding: 3% 0;
+  line-height: 1.5rem;
 }
 
 .fylo-works-cont {
   padding-top: 5%;
   width: 50%;
-  margin: 0 auto;
+  margin: 0 auto 10% auto;
   display: flex;
   justify-content: center;
   align-content: center;
@@ -144,14 +147,110 @@ h2 {
   text-shadow: 0px 0px 0px hsl(170, 45%, 43%);
   font-family: 'Open Sans', sans-serif;
   border-bottom: 1px solid hsl(170, 45%, 43%);
-  padding-bottom: 5px;
+  padding-bottom: 1px;
 }
 
 .arrow-icon {
   width: 30px;
   border-bottom: 1px solid hsl(170, 45%, 43%);
-  padding-bottom: 5px;
+  padding-bottom: 1px;
   padding-left: 5px;
+}
+
+.testimonial-cont {
+  width: 80%;
+  margin: 0 auto;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 0.5rem;
+  box-shadow: 0px 5px 10px hsl(0, 0%, 75%);
+}
+
+.quotes-img {
+  width: 18px;
+  display: block;
+  margin-left: 7.5%;
+  padding: 7% 0 4% 0;
+}
+
+.testimonial-p {
+  font-family: 'Open Sans', sans-serif;
+  color: hsl(243, 87%, 12%);
+  text-align: left;
+  width: 90%;
+  margin-left: 7.5%;
+  font-size: 0.85rem;
+  line-height: 1.4rem;
+}
+
+.testimonial-flex {
+  margin-left: 7.5%;
+  display: flex;
+  padding: 6% 0 8% 0;
+}
+
+.testimonial-img {
+  display: block;
+  width: 40px;
+  height: 100%;
+  border-radius: 50%;
+  margin-right: 5%;
+}
+
+.name-p, .position-p {
+  color: hsl(243, 87%, 12%);
+  font-family: 'Open Sans', sans-serif;
+}
+
+.name-p {
+  font-weight: 700;
+  font-size: 0.85rem;
+  padding-bottom: 5px;
+}
+
+.position-p {
+  font-size: 0.6rem;
+}
+
+.footer-form-cont {
+  background-color: hsl(238, 22%, 44%);
+  padding: 4% 0;
+}
+
+.footer-form-cont h2 {
+  color: hsl(0, 0%, 100%);
+}
+
+.form-p {
+  color: hsl(0, 0%, 100%);
+  width: 85%;
+  text-align: center;
+  margin: 0 auto;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.5rem;
+}
+
+.form-footer .email-input-footer {
+  width: 65%;
+  border-radius: 0.2rem;
+  border: 0;
+}
+
+.email-input-footer[type="email"]::placeholder {
+  font-size: 0.7rem;
+}
+
+.form-btn-cont-footer button {
+  width: 65%;
+  border-radius: 0.2rem;
+}
+
+.footer-cont {
+  background-color: hsl(243, 87%, 12%);
+}
+
+.logo-img-footer {
+  margin-top: 10%;
+  margin-left: 10%;
 }
 
 .attribution { 
