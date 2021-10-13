@@ -249,8 +249,25 @@ h2 {
 }
 
 .logo-img-footer {
-  margin-top: 10%;
+  margin: 15% 0 5% 10%;
+}
+
+.phone-cont, .email-cont {
+  display: flex;
   margin-left: 10%;
+}
+
+.phone-cont img, .email-cont img {
+  width: 20px;
+  height: 100%;
+  margin-top: 2px;
+}
+
+.phone-cont p, .email-cont p {
+  font-family: 'Open Sans', sans-serif;
+  color: hsl(0, 0%, 100%);
+  margin-left: 5%;
+  width: 90%;
 }
 
 .attribution { 
