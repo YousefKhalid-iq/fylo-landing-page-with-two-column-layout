@@ -291,8 +291,33 @@ h2 {
   padding: 2% 0 8% 0;
 }
 
+.footer-socials {
+  display: flex;
+  justify-content: center;
+  padding-top: 10%;
+  padding-bottom: 5%;
+}
+
+.footer-socials svg {
+  width: 33px;
+  height: 33px;
+  padding: 7px;
+  border-radius: 50px;
+  border: 1px solid #fff;
+  margin: 0 5px;
+}
+
 .attribution { 
   font-size: 11px; text-align: center; 
+  font-family: 'Open Sans', sans-serif;
+  color: hsl(0, 0%, 100%);
+}
+
+@media only screen and (min-width: 960px) {
+  nav {
+    width: 90%;
+    margin: 5% auto 0 auto;
+  }
 }
 
 .attribution a { 
