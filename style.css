@@ -318,6 +318,15 @@ h2 {
     width: 90%;
     margin: 5% auto 0 auto;
   }
+
+  .header-section {
+    padding-top: 5%;
+  }
+
+  .flex-cont {
+    display: flex;
+    flex-direction: row-reverse;
+  }
 }
 
 .attribution a { 
